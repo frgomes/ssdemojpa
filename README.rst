@@ -14,6 +14,14 @@ which employs `SecureSocial`_ (for actually doing the authentication) and JPA fo
 the persistence layer.
 
 
+Requirements
+============
+
+* Java 8
+* Scala 2.10.4
+
+*Note:* compilation will certainly fail with Scala 2.11.+
+
 
 For the impatient
 =================

@@ -21,6 +21,7 @@ trait Options extends sbt.Build {
     javacOptions ++= defaultJavaSettings)
 
   val scalaSettings = play.Project.playScalaSettings ++ Seq(
+    scalaVersion := "2.10.4",
     scalacOptions ++= Seq("-feature"))
 }
 
